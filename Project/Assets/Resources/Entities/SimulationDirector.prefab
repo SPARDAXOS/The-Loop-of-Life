@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8155645000329651172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8155645000329651194}
+  - component: {fileID: 8155645000329651195}
+  m_Layer: 0
+  m_Name: SimulationDirector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &8155645000329651194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8155645000329651172}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8155645000329651195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8155645000329651172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab79129b415c4ce4780bd6c5f2392593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCameraPrefab: {fileID: 7648040353457951128, guid: e28b295754d77c949a1e816520438e16,
+    type: 3}
+  GrassControllerSample: {fileID: 1976660485335954473, guid: fd388b46047b6c8459f428392c1772f5,
+    type: 3}
+  SheepControllerSample: {fileID: 4364611749843037235, guid: 1dacc44f89e3ec34593a74b2ef362a6e,
+    type: 3}
+  WolvesControllerSample: {fileID: 2590198456355906572, guid: 97373108d1cb8c34aacae920a28b49b2,
+    type: 3}
+  BoidsControllerSample: {fileID: 2564561129288802105, guid: 119029fcc841fec4785d7b79a4e7aadd,
+    type: 3}
+  GridMapOrigin: {x: 0, y: 0, z: 0}
+  CellSample: {fileID: 5053653736934475174, guid: b5634655615184a45a394e90e83b16af,
+    type: 3}
+  WidthCellsCount: 15
+  HeightCellsCount: 15
+  SimulationAreaRightEdge: 0
+  SimulationAreaLowerEdge: 0
+  SimulationAreaUpperEdge: 0
+  SimulationAreaLeftEdge: 0
+  GrassControllerObject: {fileID: 0}
+  SheepControllerObject: {fileID: 0}
+  WolvesControllerObject: {fileID: 0}
+  BoidsControllerObject: {fileID: 0}
+  MainCameraObject: {fileID: 0}
+  CellsPool: []

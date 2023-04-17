@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2564561129288802105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7855901347897567321}
+  - component: {fileID: 6145714004973083284}
+  m_Layer: 0
+  m_Name: BoidsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7855901347897567321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564561129288802105}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6145714004973083284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564561129288802105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495963ab4484a55438aee86bdae8bb24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BoidSample: {fileID: 4280138074095897665, guid: 132373c4bedad874da733341c0818bc1,
+    type: 3}
+  TotalFlocks: 3
+  BoidsPerFlock: 10
+  SpawnsOffsetUpperLimit: 1
+  SpawnsOffsetLowerLimit: 0
+  SpawnOffsetY: 1.5
+  CellIndexUpdateFrequency: 0
+  SenseFrequency: 0
+  DecideFrequency: 0
+  ActFrequency: 0
+  BoidsPool: []
